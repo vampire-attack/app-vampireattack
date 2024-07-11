@@ -1,7 +1,5 @@
-// 'use client';
-
-import { redirect } from "next/navigation";
+import { Landing } from "@/components";
 
 export default function Home() {
-  redirect("/merge");
+  return <Landing />;
 }

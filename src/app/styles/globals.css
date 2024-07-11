@@ -1,15 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 /* For WebKit-based browsers */
 ::-webkit-scrollbar {
-  width: 8px;
+  width: 5px;
 }
 
 ::-webkit-scrollbar-thumb {
   -webkit-box-shadow: inset 0 0 6px rgba(184, 184, 184, 0.3);
-  border-radius: 10px;
-
   background-color: #fc393a;
 }
 
@@ -19,12 +18,10 @@
 
 /* For Firefox */
 ::-moz-scrollbar {
-  width: 8px;
+  width: 5px;
 }
 
 ::-moz-scrollbar-thumb {
-  border-radius: 10px;
-
   background-color: #fc393a;
 }
 

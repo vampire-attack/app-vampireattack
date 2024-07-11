@@ -1,2 +1,1 @@
-export * from "./MergeCard";
-export * from "./Modals";
+export * from "./Landing";
