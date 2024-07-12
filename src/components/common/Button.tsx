@@ -10,11 +10,9 @@ type ButtonType = PolymorphicComponentProps<"button", ButtonProps>;
 export const Button = ({ className, children, ...props }: ButtonType) => {
   return (
     <MtButton
-      className={`!text-black px-2 py-[6px] ${className}`}
+      className={`!text-black !px-6 !py-2 !nunito-semibold ${className}`}
       variant="primary"
       tt="uppercase"
-      fullWidth
-      fw={800}
       size="sm"
       radius={5}
       {...props}

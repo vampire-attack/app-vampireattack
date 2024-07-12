@@ -44,7 +44,7 @@ export const LandingMain = () => {
           <Title order={1} tt="uppercase">
             unleash <br /> your fury
           </Title>
-          <Text size="md" className="fauna-one !py-4" c="textGray2">
+          <Text size="md" className="fauna-one !pt-4 !pb-10" c="textGray2">
             Attack the top DeFi protocols and reclaim your power.
           </Text>
           <Button>MIGRATE LIQUIDITY NOW</Button>
