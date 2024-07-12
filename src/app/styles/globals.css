@@ -42,3 +42,9 @@ header {
     font-size: 75%;
   }
 }
+
+img,
+video {
+  max-width: none;
+  height: auto;
+}

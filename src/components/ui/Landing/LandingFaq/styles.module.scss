@@ -1,0 +1,87 @@
+.imageWrapper {
+  position: relative;
+  height: 700px;
+
+  .bgWhat {
+    display: none;
+    height: 86vh;
+    width: 100%;
+    object-fit: contain;
+  }
+
+  .el_1 {
+    top: 0;
+    left: -50px;
+
+    .el {
+      width: 250px;
+      height: 250px;
+      position: absolute;
+    }
+
+    .tooth {
+      width: 250px;
+      height: 100px;
+      top: 0;
+      left: 10px;
+      position: absolute;
+    }
+  }
+
+  .el_2 {
+    top: 40%;
+    left: 30%;
+
+    .el {
+      width: 200px;
+      height: 200px;
+      position: absolute;
+    }
+
+    .tooth {
+      position: absolute;
+      width: 190px;
+      height: 90px;
+      top: 0;
+      left: 10px;
+    }
+  }
+
+  .el_3 {
+    top: 60%;
+    left: -50px;
+
+    .el {
+      width: 170px;
+      height: 170px;
+      position: absolute;
+    }
+
+    .tooth {
+      position: absolute;
+      width: 160px;
+      height: 90px;
+      top: 0;
+      left: 10px;
+    }
+  }
+
+  .el_4 {
+    top: 80%;
+    left: 35%;
+
+    .el {
+      width: 150px;
+      height: 150px;
+      position: absolute;
+    }
+
+    .tooth {
+      position: absolute;
+      width: 140px;
+      height: 80px;
+      top: 0;
+      left: 10px;
+    }
+  }
+}
