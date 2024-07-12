@@ -1,4 +1,5 @@
 import { LandingFaq } from "./LandingFaq";
+import { LandingFooter } from "./LandingFooter";
 import { LandingMain } from "./LandingMain";
 
 export const Landing = () => {
@@ -6,6 +7,7 @@ export const Landing = () => {
     <>
       <LandingMain />
       <LandingFaq />
+      <LandingFooter />
     </>
   );
 };
