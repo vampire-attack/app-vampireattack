@@ -64,3 +64,9 @@
 .fauna-one {
   font-family: "Fauna One Regular" !important;
 }
+
+.floating-image {
+  position: absolute;
+  transition: transform 0.1s ease;
+  /* animation: shake 30s ease-in-out infinite; */
+}

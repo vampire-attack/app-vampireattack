@@ -8,22 +8,22 @@ export const LandingMain = () => {
   return (
     <div className={styles.container}>
       <div className={styles.heroImage}>
-        <img src="img/hero/Background-only.png" alt="" />
+        <img src="/img/hero/Background-only.png" alt="" />
         <img
-          src="img/hero/red-sun-only1.png"
+          src="/img/hero/red-sun-only1.png"
           alt=""
           className={styles.redSun}
         />
-        <img src="img/hero/bats.png" alt="" />
+        <img src="/img/hero/bats.png" alt="" />
         <img
-          src="img/hero/red-splash.png"
+          src="/img/hero/red-splash.png"
           alt=""
           className={styles.redSplash}
         />
-        <img src="./img/hero/rocks-below.png" alt="" />
-        <img src="img/hero/vampire-and-horse.png" alt="" />
+        <img src="/img/hero/rocks-below.png" alt="" />
+        <img src="/img/hero/vampire-and-horse.png" alt="" />
         <img
-          src="img/hero/laser-eyes.png"
+          src="/img/hero/laser-eyes.png"
           alt=""
           className={styles.layerEyes}
         />
@@ -40,11 +40,11 @@ export const LandingMain = () => {
           </Link>
         </div>
 
-        <div className="relative w-[50%] pl-[20%]">
+        <div className="relative w-[50%] pl-[10%]">
           <Title order={1} tt="uppercase">
             unleash <br /> your fury
           </Title>
-          <Text size="md" className="fauna-one !py-4" c="textGray2">
+          <Text size="md" className="fauna-one !pt-4 !pb-10" c="textGray2">
             Attack the top DeFi protocols and reclaim your power.
           </Text>
           <Button>MIGRATE LIQUIDITY NOW</Button>

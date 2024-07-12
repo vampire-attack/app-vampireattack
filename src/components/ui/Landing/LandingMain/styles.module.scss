@@ -45,24 +45,29 @@
   overflow: hidden;
 
   .heroImage {
-    position: relative;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
 
     img {
       width: 100%;
+      height: 100%;
       position: absolute;
       filter: brightness(60%) blur(0.5px) !important;
       -webkit-filter: blur(0.5px);
+      object-fit: cover;
     }
 
     .redSun {
       display: block;
-      /* margin: 50px auto; */
       height: auto;
       animation: rotate 303s linear infinite;
       position: absolute;
       width: 74%;
-      top: -160px;
-      right: -167px;
+      top: -10vh;
+      right: -10vw;
     }
 
     .redSplash {

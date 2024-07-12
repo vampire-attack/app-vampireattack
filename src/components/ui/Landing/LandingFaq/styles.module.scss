@@ -1,0 +1,28 @@
+.imageWrapper {
+  position: relative;
+  height: 45rem;
+
+  .el_1 {
+    top: 0;
+    left: -50px;
+    width: 15rem;
+  }
+
+  .el_2 {
+    top: 40%;
+    left: 30%;
+    width: 12.5rem;
+  }
+
+  .el_3 {
+    top: 60%;
+    left: -50px;
+    width: 10rem;
+  }
+
+  .el_4 {
+    top: 80%;
+    left: 35%;
+    width: 8rem;
+  }
+}

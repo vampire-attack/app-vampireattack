@@ -3,23 +3,26 @@ import {
   Button as MtButton,
   ButtonProps,
   PolymorphicComponentProps,
+  Text,
 } from "@mantine/core";
+import styles from "./styles.module.scss";
+import clsx from "clsx";
 
 type ButtonType = PolymorphicComponentProps<"button", ButtonProps>;
 
 export const Button = ({ className, children, ...props }: ButtonType) => {
   return (
     <MtButton
-      className={`!text-black px-2 py-[6px] ${className}`}
+      className={clsx(styles.button, className)}
       variant="primary"
       tt="uppercase"
-      fullWidth
-      fw={800}
-      size="sm"
+      size="md"
       radius={5}
       {...props}
     >
-      {children}
+      <Text size="sm" fw={600} className="!nunito-semibold" c="black">
+        {children}
+      </Text>
     </MtButton>
   );
 };
