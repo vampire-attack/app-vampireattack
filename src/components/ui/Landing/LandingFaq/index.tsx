@@ -98,41 +98,33 @@ export const LandingFaq = () => {
   }, []);
 
   return (
-    <div className="py-10 px-[10%] relative flex">
-      <div className={clsx(styles.imageWrapper, "flex-[5]")}>
-        <img src="img/bg-what.png" className={styles.bgWhat} />
-        <div className={clsx("floating-image", styles.el_1)}>
-          <img src="./img/el-3.png" className={styles.el} alt="What it is" />
-          <img
-            src="./img/vampireTooth.png"
-            className={styles.tooth}
-            alt="What it is"
-          />
-        </div>
-        <div className={clsx("floating-image", styles.el_2)}>
-          <img src="./img/el-2.png" className={styles.el} alt="What it is" />
-          <img
-            src="./img/vampireTooth.png"
-            className={styles.tooth}
-            alt="What it is"
-          />
-        </div>
-        <div className={clsx("floating-image", styles.el_3)}>
-          <img src="./img/el-1.png" className={styles.el} alt="What it is" />
-          <img
-            src="./img/vampireTooth.png"
-            className={styles.tooth}
-            alt="What it is"
-          />
-        </div>
-        <div className={clsx("floating-image", styles.el_4)}>
-          <img src="./img/el-4.png" className={styles.el} alt="What it is" />
-          <img
-            src="./img/vampireTooth.png"
-            className={styles.tooth}
-            alt="What it is"
-          />
-        </div>
+    <div className="py-10 px-[12%] relative block md:flex items-center">
+      <div
+        className={clsx(
+          styles.imageWrapper,
+          "flex-[5] text-center hidden md:block"
+        )}
+      >
+        <img
+          src="/img/el-1.png"
+          className={clsx("floating-image", styles.el_1)}
+          alt="What it is"
+        />
+        <img
+          src="/img/el-2.png"
+          className={clsx("floating-image", styles.el_2)}
+          alt="What it is"
+        />
+        <img
+          src="/img/el-3.png"
+          className={clsx("floating-image", styles.el_3)}
+          alt="What it is"
+        />
+        <img
+          src="/img/el-4.png"
+          className={clsx("floating-image", styles.el_4)}
+          alt="What it is"
+        />
       </div>
 
       <div className="flex-[7] flex flex-col gap-16">
